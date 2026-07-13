@@ -16,3 +16,29 @@ Bordnetz 230V
 
 Bordnetz 24V
   Verteilung
+
+International Organization for Standardization ISO 10133 – Kleinfahrzeuge mit 12 V oder 24 V DC (Kleinspannungs-Gleichstromanlagen).
+International Organization for Standardization ISO 13297 – 230 V AC-Installationen an Bord.
+ABYC (American Boat and Yacht Council)
+  ABYC E-11 (AC & DC Electrical Systems)
+  ABYC A-31 (Lithium-Batterien)
+  ABYC TE-13 (Lithium-Systeme)
+
+48 V
+├── LiFePO₄
+├── Solar
+├── Wind??? (vermutlich höher)
+├── Wechselrichter
+├── Ladegeräte
+│
+├── DC/DC → 24 V
+│      ├── Navigation
+│      ├── Funk
+│      ├── Radar
+│      ├── AIS
+│      └── Autopilot
+│
+└── DC/DC → 12 V
+       ├── Beleuchtung
+       ├── USB
+       └── Kleingeräte
