@@ -42,3 +42,17 @@ ABYC (American Boat and Yacht Council)
        ├── Beleuchtung
        ├── USB
        └── Kleingeräte
+
+48 V für mehr Fehlertoleranz !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+├── DC/DC A
+│      Navigation
+│      AIS
+│      Funk
+
+├── DC/DC B
+│      Licht
+│      Pumpen
+
+└── DC/DC C
+       Komfort
