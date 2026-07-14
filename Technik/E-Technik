@@ -56,3 +56,31 @@ ABYC (American Boat and Yacht Council)
 
 └── DC/DC C
        Komfort
+
+Kritische Verbraucher physisch trennen
+
+Ich würde beispielsweise unterscheiden zwischen:
+
+Essential Bus
+
+Bilgenpumpen
+Funk
+AIS
+GPS
+Positionslichter
+Autopilot (je nach Fahrt)
+
+und
+
+House Bus
+
+Kühlschrank
+Steckdosen
+Entertainment
+Warmwasser
+Kaffeemaschine
+
+Dann kann ein Fehler im Komfortbereich die sicherheitsrelevanten Systeme nicht beeinträchtigen.
+
+
+
