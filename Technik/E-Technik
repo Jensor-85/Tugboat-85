@@ -17,12 +17,26 @@ Bordnetz 230V
 Bordnetz 24V
   Verteilung
 
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Trenntrafo zwischen Landstromeingang und Bordnetz um "Verpolung" zu entschärfen. 
+
+ALLE Leitungsschutzschalter 2-Polig, damit Phase sicher getrennt wird!!!!
+
+Landstrom zwingend CEE-Dose und -Stecker Verbindung
+
+Empfehlung CEE auch für Endgeräte
+
+------------------------------------------------------------------------------------------------------------------------------------
+
 International Organization for Standardization ISO 10133 – Kleinfahrzeuge mit 12 V oder 24 V DC (Kleinspannungs-Gleichstromanlagen).
 International Organization for Standardization ISO 13297 – 230 V AC-Installationen an Bord.
 ABYC (American Boat and Yacht Council)
   ABYC E-11 (AC & DC Electrical Systems)
   ABYC A-31 (Lithium-Batterien)
   ABYC TE-13 (Lithium-Systeme)
+
+--------------------------------------------------------------------------------------------------------------------------------
 
 48 V
 ├── LiFePO₄
@@ -81,6 +95,8 @@ Warmwasser
 Kaffeemaschine
 
 Dann kann ein Fehler im Komfortbereich die sicherheitsrelevanten Systeme nicht beeinträchtigen.
+
+-------------------------------------------------------------------------------------------------------------------------------------
 
 
 
