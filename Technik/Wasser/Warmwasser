@@ -1,0 +1,49 @@
+
+
+
+
+
+[Variante A: BEI MOTORFAHRT (Abwärmenutzung)]
+Motor läuft (Kreis 1) ──► Erhitzt Plattenwärmetauscher
+                                 │
+                                 ▼
+   Trägt Wärme in Heizkreis (Kreis 2) ──► Versorgt Radiatoren
+                                         │
+                                         └──► Fließt durch die 2. Spule des Boilers
+                                              und erwärmt Trinkwasser (Kreis 3)
+
+
+[Variante B: AM LANDSTROM (Elektrisch im Hafen)]
+Motor steht (Kreis 1 & Kreis 4 inaktiv).
+230V-Heizstab im Boiler ──────────► Erwärmt Trinkwasser (Kreis 3) direkt.
+230V-Heizpatrone im Heizkreis ────► Erwärmt die Radiatoren (Kreis 2) direkt.
+
+
+[Variante C: VOR ANKER (Verbrennung über Dieselheizung)]
+Motor steht (Kreis 1 & Kreis 4 inaktiv).
+Dieselheizung startet ──► Erhitzt Heizkreis (Kreis 2) direkt
+                                │
+                                ├──► Versorgt immer die Radiatoren/Heizung
+                                │
+                                └──► [Temperatur-Ventil an Kreis 3]
+                                           │
+                                           ├──► Wenn Boiler KALT: Wasser fließt durch die 2. Spule
+                                           │    und erwärmt das Trinkwasser.
+                                           │
+                                           └──► Wenn Boiler WARM (Solltemp. erreicht):
+                                                Ventil schaltet um auf ──► [ BYPASS ]
+                                                (Wasser umgeht den Boiler und fließt 
+                                                 direkt zurück zur Dieselheizung).
+
+FÜR BYPASS
+
+Option 1: Das mechanische 3-Wege-Umschaltventil (Thermostatisches Ladeventil)
+In der Praxis nutzt man hierfür Bauteile, die im Aufbau den Thermostaten im Automotor gleichen (z. B. Baureihen wie ESBE VTC oder Heimeier Dreiwege-Urventil).
+Wie es funktioniert: Das Ventil besitzt einen festen internen Thermostat-Einsatz (z. B. ausgelegt auf 60 °C). Es misst die Temperatur des vorbeiströmenden Wassers.
+Der Clou an Bord: Solange das Wasser, das aus dem Boiler zurückkommt, noch kalt ist, blockiert das Ventil den Bypass-Ausgang und leitet alles durch den Boiler. Sobald das Trinkwasser heiß ist und das Heizwasser kaum noch Wärme abgibt (Rücklauftemperatur steigt über 60 °C), öffnet das Dehnstoffelement den Bypass-Weg und schließt den Boiler-Weg.
+
+Option 2: Das elektrische 3-Wege-Zonenventil (als Umschalter)
+Wenn man den Begriff "Zonenventil" in diesem Szenario nutzt, dann nicht als Absperrung, sondern als elektrischen Drei-Wege-Umschalter (z. B. Honeywell VC-Serie).
+Der Aufbau: Ein digitaler Anlegethermostat misst die Temperatur direkt am Boiler-Trinkwasser.
+Die Funktion: Unter 60 °C: Der Thermostat gibt Strom auf das Ventil, der Motor stellt den Durchfluss auf "Kanal A" (zum Boiler).
+Über 60 °C: Der Thermostat schaltet um, der Stellmotor dreht das Ventil auf "Kanal B" (Bypass). Das Ventil verharre in dieser Position, bis die Temperatur im Boiler wieder sinkt.
